@@ -6,8 +6,8 @@ export default function Logo() {
         <Image 
             className="border-4 border-black dark:border-slate-500 drop-shadow-xl shadow-black rounded-full mx-auto mt-8"
             src='/images/Black and White Modern Man Youtube Profile Picture (8).png'
-            width={400}
-            height={400}
+            width={95}
+            height={100}
             alt="Logo"
             priority={true}
         />
