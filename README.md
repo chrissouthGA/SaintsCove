@@ -1,18 +1,27 @@
 # SaintsCove
 **Description:** 
+
 I am creating a ReactNative-based blog website tailored for my church's media team. The primary goal of this project is to foster user engagement by providing a platform where visitors can seamlessly watch videos, share their thoughts through comments, and actively interact with the site's content. To achieve this, I'll be leveraging React JS to craft dynamic and interactive user interfaces for the web platform. Additionally, I plan to utilize React Native for the development of the mobile application, ensuring a consistent and optimized experience across various devices.
 
 **Categories:**
 About 
+
 Mission 
+
 Connect 
+
 Media
+
 Meet The Team
 
 **Technologies:**
+
 Next JS 
+
 Sanity V3
+
 Typescript 
+
 TailWind CSS
 
 **User Features:**
