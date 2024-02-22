@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar />
+        {/* <Navbar />
         <section className="w-full mx-auto">
           <div className="h-96 w-full">
             <Image
@@ -31,7 +31,7 @@ export default function RootLayout({
               priority={true}
             />
           </div>
-        </section>
+        </section> */}
         <main>
           {children}
         </main>
