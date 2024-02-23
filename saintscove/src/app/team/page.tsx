@@ -3,14 +3,14 @@ import React from 'react'
 import Logo from '../../../components/Logo'
 import Navbar from '../../../components/NavBar'
 
-const About = () => {
+const TeamPage = () => {
     return (
         <div>
-            About Us 
+            Meet The Team
             <Navbar />
         </div>
 
     )
 }
 
-export default About
+export default TeamPage

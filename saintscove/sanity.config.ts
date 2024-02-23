@@ -3,8 +3,6 @@ import { deskTool } from "sanity/desk";
 import blog from "./sanity/schemas/blog-schema";
 
 
-
-
 const config = defineConfig({
     projectId: 'bqz1l84d',
     dataset: 'production',

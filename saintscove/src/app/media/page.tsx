@@ -3,14 +3,15 @@ import React from 'react'
 import Logo from '../../../components/Logo'
 import Navbar from '../../../components/NavBar'
 
-const About = () => {
+const MediaPage
+ = () => {
     return (
         <div>
-            About Us 
+            Media
             <Navbar />
         </div>
 
     )
 }
 
-export default About
+export default MediaPage
