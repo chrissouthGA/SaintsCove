@@ -3,8 +3,7 @@ import React from 'react'
 import Logo from '../../../components/Logo'
 import Navbar from '../../../components/NavBar'
 
-const MediaPage
- = () => {
+const MediaPage = () => {
     return (
         <div>
             Media
