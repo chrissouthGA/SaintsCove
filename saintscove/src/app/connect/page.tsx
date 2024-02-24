@@ -1,6 +1,5 @@
 'use client'
 
-import { createClient } from "next-sanity";
 import { useState, useEffect } from 'react';
 import Navbar from '../../../components/NavBar'
 import { getBlogs } from '../../../sanity/sanity-utils'
