@@ -1,8 +1,8 @@
-import { createClient, groq } from "next-sanity";
+import { createClient } from "next-sanity";
 import { Blog } from "../types/Blogs";
 
 
-export async function getBlogs():Promise<Blog[]> {
+export async function getBlogs(): Promise<Blog[]> {
     const client = createClient({
         projectId: 'bqz1l84d',
         dataset: 'production',
@@ -10,18 +10,14 @@ export async function getBlogs():Promise<Blog[]> {
     });
 
     return client.fetch(
-            `*[_type == 'blog']{
+        `*[_type == 'blog']{
                 _id, 
-                name
+                _createdAt,
+                name,
+                'slug': slug.current,
+                'image': image.asset -> url, 
+                url, 
+                content
             }`
-        // groq `*[_type = 'blog']{
-        //     _id, 
-        //     _createdAt,
-        //     name,
-        //     'slug': slug.current,
-        //     'image': image.asset -> url, 
-        //     url, 
-        //     content
-        // }`
     )
 }
