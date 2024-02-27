@@ -18,6 +18,7 @@ const Navbar = () => {
                 <Link href="/connect" className="flex mt-4 lg:inline-block lg:mt-o text-black hover:text-zinc-400 transition-colors mr-4 font-bold justify-between items-end">Connect</Link>
                 <Link href="/media" className="flex mt-4 lg:inline-block lg:mt-o text-black hover:text-zinc-400 transition-colors mr-4 font-bold justify-between items-end">Media</Link>
                 <Link href="/team" className="flex mt-4 lg:inline-block lg:mt-o text-black hover:text-zinc-400 transition-colors mr-4 font-bold justify-between items-end">Meet The Team</Link>
+                <Link href="/admin" className="flex mt-4 lg:inline-block lg:mt-o text-black hover:text-zinc-400 transition-colors mr-4 font-bold justify-between items-end">Admin</Link>
             </div>
         </div>
     </nav>
