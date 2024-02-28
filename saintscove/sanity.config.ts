@@ -13,4 +13,6 @@ const config = defineConfig({
     schema: {types:[ blog ]},   
 })
 
+
+
 export default config;

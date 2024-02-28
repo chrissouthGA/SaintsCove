@@ -17,7 +17,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "background":"url('/images/Black and White Geometric Minimalist Logo-2.jpeg')"
+         "homebg":"url('/images/HomePage.png')",
+         "aboutbg":"url('/images/AboutPage.png')",
+         "connectbg":"url('/images/ConnectPage.png')",
+         "mediabg":"url('/images/Media.png')",
+         "teambg":"url('/images/Team.png')",
       },
     },
   },

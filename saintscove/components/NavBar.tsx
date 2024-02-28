@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full h-55 border-b-[0px]">
-        <div className="max-h-screen-2xl mx-25 px-10">
+        <div className="max-h-screen-2xl mx-25 px-0">
             <div className="text-right text-2xl lg:flex-grow">
                 <Link href="/"className="flex items-center flex-shrink-0 mr-10"><Logo /></Link>
                 <Link href="/about" className="flex mt-4 lg:inline-block lg:mt-o text-black hover:text-zinc-400 transition-colors mr-4 font-bold justify-between items-end">About/Missions</Link>

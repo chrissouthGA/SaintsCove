@@ -2,9 +2,9 @@ import Navbar from '../../../components/NavBar'
 
 const MediaPage = () => {
     return (
-        <div>
+        <div className='bg-mediabg bg-cover bg-fixed w-screen h-screen flex items-center justify-center'>
             <Navbar />
-            Media
+           <h1>Media</h1> 
         </div>
 
     )

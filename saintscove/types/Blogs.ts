@@ -5,7 +5,12 @@ export type Blog = {
     _createdAt: Date,
     name: string,
     slug: string,
-    image: string,
+    mainImage: {
+        asset: {
+            _ref: string
+        }
+    },
     url: string,
+    description: string,
     content: PortableTextBlock[]
 }

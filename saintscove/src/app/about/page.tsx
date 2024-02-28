@@ -3,7 +3,7 @@ import Navbar from '../../../components/NavBar'
 
 const AboutPage = () => {
     return (
-        <div>
+        <div className='bg-aboutbg bg-cover bg-fixed w-screen h-screen flex items-center justify-center'>
             <Navbar />
             About Us
             <p>About Us:
