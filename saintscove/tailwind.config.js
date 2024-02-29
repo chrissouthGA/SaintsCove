@@ -21,7 +21,7 @@ module.exports = {
          "aboutbg":"url('/images/AboutPage.png')",
          "connectbg":"url('/images/ConnectPage.png')",
          "mediabg":"url('/images/Media.png')",
-         "teambg":"url('/images/Team.png')",
+         "teambg":"url('/images/Team2.png')",
       },
     },
   },
