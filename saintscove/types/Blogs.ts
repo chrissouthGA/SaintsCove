@@ -5,7 +5,7 @@ export type Blog = {
     _createdAt: Date,
     name: string,
     slug: string,
-    mainImage: {
+    image: {
         asset: {
             _ref: string
         }

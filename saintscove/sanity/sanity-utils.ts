@@ -18,7 +18,7 @@ export async function getBlogs(): Promise<Blog[]> {
         name,
         description,
         'slug': slug.current,
-        mainImage,
+        image,
         url, 
         content}`;
     const response = await client.fetch(query);
@@ -26,8 +26,9 @@ export async function getBlogs(): Promise<Blog[]> {
 }
 
 export function urlFor(source: any) {
-    if (source && source.asset && source.asset.url) {
+    if (source && source.asset && source.asset._ref) {
         return builder.image(source).url();
     }
     return '';
 }
+

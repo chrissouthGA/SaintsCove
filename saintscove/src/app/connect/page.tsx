@@ -28,16 +28,16 @@ const ConnectPage = ({}:Props) => {
       <Navbar />
       <h1>Connect With Us</h1>
       <p>Take the time to read our blog</p>
-      <div className='bg-gray-100 py-20 px-10 flex flex-col gap-10'>
+      <div className='bg-slate py-15 px-5 flex flex-col gap-10'>
         <h2 className='mt-24 font-bold text-black text-3xl'>Blogs</h2>
         <div className='mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
         {blogs.map((blog) => (
           <Link href={'/'} key={blog?._id}>
-          <div className='flex flex-col md:flex-row gap-10 bg-white rounded-md rounded-tr-md rounded-br-md hover:shadow-md duration-300'>
+          <div className='flex flex-col md:flex-row gap-5 bg-white rounded-md rounded-tr-md rounded-br-md hover:shadow-md duration-300'>
             <div className='w-full md:w-3/5 group overflow-hidden rounded-tl-md rounded-bl-md relative'>
-            {blog.mainImage && (
+            {blog.image && (
               <Image 
-              src={urlFor(blog.mainImage).url()}
+              src={urlFor(blog.image)}
               alt={blog.name}
               width={500}
               height={500}
