@@ -24,14 +24,14 @@ const Slider = () => {
     useEffect(() => {
         const timer = setTimeout (() => {
             clickNext()
-        }, 5000);
+        }, 20000);
         return () => {
             clearTimeout(timer)
         }
     }, [activeImage])
 
   return (
-    <div className='grid place-items-center grid-cols-2 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl border-4 border-black'>
+    <div className='grid place-items-center grid-cols-2 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl border-4 border-black bg-#bf977c]'>
         <div className='w-full flex justify-center items-center gap-4 transition-transform ease-in-out duration-500 rounded-2xl'>
             {images.map((pic,idx) =>(
                 <div className={`${idx === activeImage ? 'block w-full h-[80vh] object-cover transition-all duration-500 ease-in-out': 'hidden'}`} key={idx}>
