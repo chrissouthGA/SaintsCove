@@ -33,7 +33,7 @@ const ConnectPage = ({}:Props) => {
         <h2 className='mt-24 font-bold text-black text-3xl'>Blogs</h2>
         <div className='mt-5 grid grid-rows-1 md:grid-rows-2 lg:grid-rows-3 gap-8'>
         {blogs.map((blog) => (
-          <Link href={`/connect/${blog?._id}`} key={blog?._id}>
+          <Link href={`/blog/${blog.slug}`} key={blog?._id}>
           <div className='flex flex-col md:flex-row gap-5 bg-stone-500 rounded-md rounded-tr-md rounded-br-md hover:shadow-md duration-300'>
             <div className='w-full md:w-3/5 group overflow-hidden rounded-tl-md rounded-bl-md relative'>
             {blog.image && (
