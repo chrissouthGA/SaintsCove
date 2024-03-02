@@ -27,11 +27,11 @@ const ConnectPage = ({ }: Props) => {
   return (
     <div className='bg-connectbg bg-cover bg-fixed w-full h-full flex items-center justify-center'>
       <Navbar />
-      <div className='md-10'>
-      <h1 className='text 4xl font-bold text-black mt-10'>Connect With Us</h1>
-      <p className='text-lg text-gray-500 mt-2'>Take the time to read our blog</p>
-      <h2 className='mt-24 font-bold text-black text-3xl'>Blogs</h2>
+      <div className='max-w-6xl mx-auto px-5'>
       <div className='mt-5 grid grid-rows-1 md:grid-rows-2 lg:grid-rows-3 gap-8'>
+      <h1 className='text 4xl font-bold text-black mt-10 mb-2'>Connect With Us</h1>
+      <p className='text-lg text-gray-500 mb-10'>Take the time to read our blog</p>
+      <h2 className='font-bold text-black text-3xl mb-5'>Blogs</h2>
         {blogs.map((blog) => (
           <Link href={`/blog/${blog.slug}`} key={blog?._id}>
             <div className='flex flex-col md:flex-row gap-10 bg-[#ebe5d8] rounded-md rounded-tr-md rounded-br-md hover:shadow-md duration-300'>
