@@ -34,7 +34,7 @@ export default async function Blog({ params }: Props) {
                         <div className="w-8 md:w-2/5 flex flex-col md:flex-row justify-between py-4 px-1">
                             <div className="flex items-start gap-2">
                                 <h2 className="text-2xl font-semibold hover:text-orange-300 duration-200 cursor-pointer">{content?.name}</h2>
-                                <p className="text-black/100">{content.description}</p>
+                                <p className="text-black/100">{content?.description}</p>
                             </div>
                         </div>
                     </div>
@@ -42,5 +42,6 @@ export default async function Blog({ params }: Props) {
                 </div>
             </div>
         </div>
+
     )
 }

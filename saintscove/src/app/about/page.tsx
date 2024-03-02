@@ -28,7 +28,7 @@ const AboutPage = () => {
                             <li>We stay current with trends to maximize exposure and impact.</li>
                             <li>We create meaningful content to engage our target audience.</li>
                             <li>We extend a warm invitation to join us for church services.</li>
-                            <li> We feature our choir's involvement in our events.</li>
+                            <li>We feature our choir's involvement in our events.</li>
                             <li>We share messages and snippets of preaching to inspire and uplift.</li>
                             <li>We offer program ads to support our mission.</li>
                             <li>We share prayers of the month to encourage spiritual growth.</li>
