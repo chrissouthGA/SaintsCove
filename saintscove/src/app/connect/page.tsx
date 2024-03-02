@@ -29,7 +29,7 @@ const ConnectPage = ({ }: Props) => {
       <Navbar />
       <div className='max-w-6xl mx-auto px-5'>
       <div className='mt-5 grid grid-rows-1 md:grid-rows-2 lg:grid-rows-3 gap-8'>
-      <h1 className='text 4xl font-bold text-black mt-10 mb-2'>Connect With Us</h1>
+      <h1 className='text-4xl font-bold text-black mt-10 mb-2'>Connect With Us</h1>
       <p className='text-lg text-gray-500 mb-10'>Take the time to read our blog</p>
       <h2 className='font-bold text-black text-3xl mb-5'>Blogs</h2>
         {blogs.map((blog) => (
