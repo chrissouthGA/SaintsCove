@@ -13,7 +13,7 @@ type Props = {
 const Description = ({ clickNext, clickPrev, activeImgIndex }: Props) => {
     return (
         <div className='grid place-items-start w-full h-full relative rounded-tr-6xl rounded-br-6xl'>
-            <div className='uppercase text-xl right-0 top-2 underline-offset-4 underline'>
+            <div className='uppercase text-xl right-0 top-2 underline-offset-4 text-center'>
                 Meet The Team
                 {images.map((elem, idx) => (
                     <div className={idx === activeImgIndex ? 'block w-full h-[70vh] object-cover transition-all duration-500 ease-in-out' : 'hidden'} key={idx}>

@@ -28,9 +28,9 @@ const ConnectPage = ({ }: Props) => {
       <Navbar />
       <div className="max-w-6xl mx-auto px-5">
         <div className="mt-5 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8">
-          <h2 className="font-bold text-black text-3xl mt-40">Blogs</h2>
-          <p className="text-lg text-black/50 mb-10 items-center">
-            Take the time to read and 
+          <h2 className="text-5xl text-center font-bold text-black subpixel-antialiased items-center uppercase mt-44">Saint Cove's Blogs and Sermons</h2>
+          <p className="text-lg text-black/50 mb-10 text-center uppercase">
+            Read With Us 
           </p>
           {blogs.map((blog) => (
             <Link href={`/blog/${blog.slug}`} key={blog?._id}>
@@ -47,7 +47,7 @@ const ConnectPage = ({ }: Props) => {
                   )}
                   <div className="absolute top-0 left-0 w-full h-full group-hover:bg-black/20 duration-200 opacity-0 group-hover:opacity-100">
                     <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
-                      <p className="text-lg font-semibold">Read Me</p>
+                      <p className="text-lg font-bold uppercase text-white">Read Me</p>
                     </div>
                   </div>
                 </div>

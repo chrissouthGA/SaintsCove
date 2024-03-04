@@ -2,6 +2,7 @@ import Image from "next/image";
 import { getBlog, urlFor } from "../../../../sanity/sanity-utils";
 import { PortableText } from "@portabletext/react";
 import Navbar from "../../../../components/NavBar";
+import Link from "next/link";
 
 type Props = {
     params: { content: string }
@@ -36,6 +37,9 @@ export default async function Blog({ params }: Props) {
                             <PortableText value={content.content} />
                             <p className="text-black/100">{content?.description}</p>
                         </div>
+                    </div>
+                    <div>
+                        <Link href="/connect" className="flex mb-4 lg:mt-0 text-black hover:text-zinc-400 transition-colors mr-4 font-bold justify-between items-center text-3xl text-right animate-pulse uppercase subpixel-antialiased">Back To The Connect Page</Link>
                     </div>
                 </div>
             </div>
