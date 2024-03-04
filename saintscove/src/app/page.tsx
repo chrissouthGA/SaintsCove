@@ -17,7 +17,7 @@ export default function HomePage() {
           alt={"cover"}
           className="animate-pulse opacity-35"
         />
-        <h1 className="text-5xl md:text-9xl font-black text-black subpixel-antialiased absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 uppercase flex items-center justify-center md:justify-start z-10 py-4">
+        <h1 className="text-5xl md:text-9xl font-black text-black subpixel-antialiased absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 uppercase flex items-center justify-center md:justify-start z-10 py-4 text-center">
           Welcome To The Saint's Cove
         </h1>
       </div>
