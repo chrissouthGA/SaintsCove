@@ -28,11 +28,11 @@ const AboutPage = () => {
                             <li>We stay current with trends to maximize exposure and impact.</li>
                             <li>We create meaningful content to engage our target audience.</li>
                             <li>We extend a warm invitation to join us for church services.</li>
-                            <li>We feature our choir's involvement in our events.</li>
+                            <li>We feature our choirs involvement in our events.</li>
                             <li>We share messages and snippets of preaching to inspire and uplift.</li>
                             <li>We offer program ads to support our mission.</li>
                             <li>We share prayers of the month to encourage spiritual growth.</li>
-                            <li> We provide a "Secret Place Playlist" for quiet times with God.</li>
+                            <li> We provide a Secret Place Playlist for quiet times with God.</li>
                         </ul>
                     </div>
 
@@ -58,12 +58,12 @@ const AboutPage = () => {
 
                     <div className='mb-5'>
                         <p className='font-bold text-lg'>Snippets of the Preaching:</p>
-                        Experience the power of God's word in bite-sized portions, perfect for sharing and reflection.
+                        Experience the power of Gods word in bite-sized portions, perfect for sharing and reflection.
                     </div>
 
                     <div className='mb-5'>
                         <p className='font-bold text-lg'>Prayers of the Month:</p>
-                        Join us in prayer as we seek God's guidance and blessing for our community.
+                        Join us in prayer as we seek Gods guidance and blessing for our community.
                     </div>
 
                     <div className='mb-5'>
@@ -77,7 +77,7 @@ const AboutPage = () => {
                     </div>
 
                     <div className='mb-5'>
-                        Join us at C.O.P Queens PIWC and be a part of our family's mission to transform lives through Jesus Christ.
+                        Join us at C.O.P Queens PIWC and be a part of our familys mission to transform lives through Jesus Christ.
                     </div>
                 </div>
             </div>

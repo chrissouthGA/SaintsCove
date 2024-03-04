@@ -13,7 +13,7 @@ const MediaPage = () => {
         <div className='bg-mediabg bg-cover bg-fixed w-screen h-screen flex flex-col items-center justify-center'>
             <Navbar />
             <div className='flex flex-col items-center mt-10'>
-                <p className='text-5xl text-center font-bold text-black subpixel-antialiased items-center uppercase'>Step Into The Saint's Media Cove</p>
+                <p className='text-5xl text-center font-bold text-black subpixel-antialiased items-center uppercase'>Step Into The Saints Media Cove</p>
             </div>
             <div className='mt-10 flex flex-row justify-center'>
                 <div className='mr-6'>
