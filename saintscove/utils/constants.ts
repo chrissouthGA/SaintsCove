@@ -7,7 +7,7 @@ export const images = [
     },
     {
         id: 2, 
-        src: "/images/Ashley.jpeg",
+        src: "/images/Ashley1.jpeg",
         title: "Ashley",
         desc: "From Instagram to Youtube. As the media/'s team photographer I will always make sure to grab your good side.",
 

@@ -31,7 +31,7 @@ const Slider = () => {
     }, [activeImage])
 
   return (
-    <div className='grid place-items-center grid-cols-2 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl bg-[#866b5b] mt-20 mb-20'>
+    <div className='grid place-items-center grid-cols-2 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl bg-[#866b5b] mt-20 mb-2'>
         <div className='w-full flex transition-transform ease-in-out duration-500 rounded-2xl'>
             {images.map((pic,idx) =>(
                 <div className={`${idx === activeImage ? 'block w-full object-cover transition-all duration-500 ease-in-out': 'hidden'}`} key={idx}>

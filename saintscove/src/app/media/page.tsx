@@ -10,7 +10,7 @@ const MediaPage = () => {
         <div className='bg-mediabg bg-cover bg-fixed w-screen h-screen flex flex-col items-center justify-center'>
             <Navbar />
             <div className='flex flex-col items-center mt-10'>
-                <p className='text-lg'>Step Into The Saint's Media Cove</p>
+                <p className='text-4xl'>Step Into The Saint's Media Cove</p>
             </div>
             <div className='mt-10 flex flex-row justify-center'>
                 <div className='mr-6'>
@@ -23,7 +23,7 @@ const MediaPage = () => {
                     <Video src={Games} width={500} height={500} />
                 </div>
             </div>
-            <p className='text-lg mt-6'>For More Videos Follow Us Here</p>
+            <p className='text-lg mt-6 animate-bounce'>For More Videos Follow Us Here</p>
         </div>
     )
 }
