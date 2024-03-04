@@ -16,11 +16,11 @@ const Description = ({ clickNext, clickPrev, activeImgIndex }: Props) => {
             <div className='uppercase text-xl right-0 top-2 underline-offset-4 underline'>
                 Meet The Team
                 {images.map((elem, idx) => (
-                    <div className={idx === activeImgIndex ? 'block w-full h-[80vh] object-cover transition-all duration-500 ease-in-out' : 'hidden'} key={idx}>
+                    <div className={idx === activeImgIndex ? 'block w-full h-[70vh] object-cover transition-all duration-500 ease-in-out' : 'hidden'} key={idx}>
                         <div className='py-16 text-5xl font-extrabold'>
                             {elem.title}
                         </div>
-                        <div className='leading-relaxed font-medium text-base tracking-wide h-40 italic text-black'>
+                        <div className='leading-relaxed font-medium text-base tracking-wide w-40 h-40 italic text-black'>
                             {" "}{elem.desc}
                         </div>
                         <div className='absolute bottom-1 w-full flex justify-center items-center'>
