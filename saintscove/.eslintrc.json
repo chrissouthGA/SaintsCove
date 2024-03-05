@@ -1,7 +1,7 @@
 {
   "extends": "next/core-web-vitals",
   "rules": {
-    "react/no-unescaped-entities": "1",
+    "react/no-unescaped-entities": "warn",
     "@next/next/no-page-custom-font": "off",
     "react-hooks/rules-of-hooks": "error", // For checking rules of hooks
     "react-hooks/exhaustive-deps": "warn" // For checking hook dependencies 
