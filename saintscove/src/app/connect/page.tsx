@@ -9,7 +9,7 @@ import Link from "next/link";
 
 
 
-const ConnectPage = ({ }: Props) => {
+const ConnectPage = () => {
   const [blogs, setBlogs] = useState<Blog[]>([]);
 
   useEffect(() => {
