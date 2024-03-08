@@ -4,6 +4,19 @@ import { PortableText } from "@portabletext/react";
 import Navbar from "../../../../components/NavBar";
 import Link from "next/link";
 
+interface Blog {
+    name: string;
+    description: string;
+    content: any;
+    image?: {
+        _type: string;
+        asset: {
+            _ref: string;
+            _type: string;
+        }
+    }
+}
+
 type Props = {
     params: { content: string }
 }
